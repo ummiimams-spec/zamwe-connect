@@ -91,7 +91,8 @@ const Homepage = () => {
             <h1 className="text-5xl md:text-7xl font-elastic font-bold mb-6">
               <span className="text-elastic-hero">ZAMFARA</span><br />
               <span className="text-elastic-hero">WOMEN</span><br />
-              <span className="text-elastic-hero">ENTERPRISES</span>
+              <span className="text-elastic-hero">ENTREPRENEURS</span><br />
+              <span className="text-elastic-hero">ASSOCIATION</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto font-medium">
               Join a powerful network of women entrepreneurs transforming businesses and communities across Zamfara State through innovation, collaboration, and shared success.
@@ -250,18 +251,29 @@ const Homepage = () => {
             <div className="space-y-8">
               <Card className="glass-card border-0">
                 <CardContent className="p-6">
-                  <div className="flex items-center mb-4">
+                  <div className="flex items-center mb-6">
                     <Phone className="h-6 w-6 text-primary mr-3" />
                     <div>
                       <h3 className="font-semibold">Phone</h3>
-                      <p className="text-muted-foreground">+234 (0) 806 XXX XXXX</p>
+                      <p className="text-muted-foreground">08169041781</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start mb-6">
+                    <Mail className="h-6 w-6 text-primary mr-3 mt-1" />
+                    <div>
+                      <h3 className="font-semibold mb-2">Email</h3>
+                      <div className="space-y-1">
+                        <p className="text-muted-foreground">faridamusag@gmail.com</p>
+                        <p className="text-muted-foreground">faizaaminu760@gmail.com</p>
+                        <p className="text-muted-foreground">opeyemizahraa29@gmail.com</p>
+                      </div>
                     </div>
                   </div>
                   <div className="flex items-center mb-4">
-                    <Mail className="h-6 w-6 text-primary mr-3" />
+                    <Users className="h-6 w-6 text-primary mr-3" />
                     <div>
-                      <h3 className="font-semibold">Email</h3>
-                      <p className="text-muted-foreground">info@zamwe.org</p>
+                      <h3 className="font-semibold">Contact Person</h3>
+                      <p className="text-muted-foreground">Hafsat Shafiu</p>
                     </div>
                   </div>
                   <div className="flex items-center">
